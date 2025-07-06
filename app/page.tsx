@@ -30,20 +30,26 @@ export default function BringIDLanding() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <a href="https://github.com/BringID/whitepaper/blob/main/whitepaper.md" target="_blank"
+            <Button
+              asChild
               size="lg"
               className="bg-black text-white hover:bg-gray-800 font-medium px-6 py-3 h-11 rounded-md transition-colors font-mono"
             >
-              Read Whitepaper
-            </a>
-            <a href="https://t.me/bringid_chat" target="_blank"
+              <a href="https://github.com/BringID/whitepaper/blob/main/whitepaper.md" target="_blank">
+                Read Whitepaper
+              </a>  
+            </Button>
+            <Button href="https://t.me/bringid_chat" target="_blank"
+              asChild
               size="lg"
               variant="outline"
               className="border-gray-300 text-black hover:bg-gray-50 font-medium px-6 py-3 h-11 rounded-md transition-colors bg-transparent font-mono"
             >
-              Join TG Group
+              <a href="https://t.me/bringid_chat" target="_blank">
+                Join TG Group
+              </a>
               <ExternalLink className="ml-2 h-4 w-4" />
-            </a>
+            </Button>
           </div>
         </div>
       </main>

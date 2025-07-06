@@ -47,8 +47,8 @@ export default function BringIDLanding() {
             >
               <a href="https://t.me/bringid_chat" target="_blank">
                 Join TG Group
-              </a>
               <ExternalLink className="ml-2 h-4 w-4" />
+              </a>
             </Button>
           </div>
         </div>

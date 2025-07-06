@@ -12,9 +12,7 @@ export default function BringIDLanding() {
           {/* Title Section */}
           <div className="space-y-2">
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-black leading-tight font-black">
-              BringID:
-              <br />
-              Private identity from Internet credentials
+              BringID: Privately verify humanity with your Web accounts
             </h1>
           </div>
 

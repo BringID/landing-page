@@ -12,7 +12,7 @@ export default function BringIDLanding() {
           {/* Title Section */}
           <div className="space-y-2">
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-black leading-tight font-black">
-              Bring ID:
+              BringID:
               <br />
               Private identity based on your Internet history
             </h1>
@@ -30,13 +30,13 @@ export default function BringIDLanding() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <Button
+            <a href="https://github.com/BringID/whitepaper/blob/main/whitepaper.md" target="_blank"
               size="lg"
               className="bg-black text-white hover:bg-gray-800 font-medium px-6 py-3 h-11 rounded-md transition-colors font-mono"
             >
               Read Whitepaper
-            </Button>
-            <Button
+            </a>
+            <a href="https://t.me/bringid_chat" target="_blank"
               size="lg"
               variant="outline"
               className="border-gray-300 text-black hover:bg-gray-50 font-medium px-6 py-3 h-11 rounded-md transition-colors bg-transparent font-mono"

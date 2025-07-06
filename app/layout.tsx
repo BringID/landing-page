@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BringID: Private Identity for the Internet Era',
+    title: 'BringID: Private Identity Based on Verifiable Web Credentials',
     description: 'A privacy-first identity protocol using MPC-TLS and zero-knowledge proofs.',
-    creator: '@yourhandle', // optional
+    creator: '@bring_id', // optional
     images: ['https://www.bringid.org/bringId_og_image.png'], // optional
   },
 }

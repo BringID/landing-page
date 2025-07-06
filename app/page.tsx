@@ -43,7 +43,7 @@ export default function BringIDLanding() {
             >
               Join TG Group
               <ExternalLink className="ml-2 h-4 w-4" />
-            </Button>
+            </a>
           </div>
         </div>
       </main>

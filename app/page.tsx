@@ -14,7 +14,7 @@ export default function BringIDLanding() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl text-black leading-tight font-black">
               BringID:
               <br />
-              Private identity based on verifiable Internet credentials
+              Private identity from your Internet history
             </h1>
           </div>
 

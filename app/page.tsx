@@ -109,7 +109,7 @@ export default function BringIDLanding() {
 
               {/* Bring Token Link */}
               <a
-                href="https://basescan.org/token/0x02E739740B007bd5E4600b9736A143b6E794D223"
+                href="https://farcaster.xyz/zkbringer.eth/0x5db9a71b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-mono text-gray-500 hover:text-gray-700 transition-colors"
